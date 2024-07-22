@@ -32,6 +32,7 @@ class OptContent:
 
         **Understanding the Process:**
         - We calculate returns and risks for various asset weightings, plotting them on a scatter plot. Through **optimization**, we identify the 'Efficient Frontier' — the best return for a given risk level. From this, we derive the **Maximum Sharpe Ratio** portfolio, which offers the highest return per unit of risk. Learn more about the Efficient Frontier [here](https://www.investopedia.com/terms/e/efficientfrontier.asp).
+        - The library used for the optimization is [PyPortfolioOpt](https://pyportfolioopt.readthedocs.io/en/latest/)
 
         **📈 Maximum Sharpe Ratio Portfolio:**
         - This portfolio provides the best risk-adjusted return. For instance, a Sharpe ratio of 1.5 means 1.5 units of gain for each unit of risk. It's ideal for those seeking maximum growth with controlled risk.
