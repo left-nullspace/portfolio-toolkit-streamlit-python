@@ -183,6 +183,8 @@ if page ==  "Optimizer":
         plt.grid(True)
         st.pyplot(fig)
 
+        st.write("Tool Created by Alan")
+
 
 
 
@@ -259,6 +261,7 @@ elif page == "Simulator":
                 st.write("### Portfolio and Benchmark Ending Values")
                 st.write(f"**Final Portfolio Balance:** ${portfolio_history.iloc[-1]:,.2f}")
                 st.write(f"**Final Benchmark Balance:** ${benchmark_history.iloc[-1]:,.2f}")
-
+                st.write("Tool Created by Alan ")
             except IndexError as e:
                 st.error(f"An error occurred: {e}")
+
